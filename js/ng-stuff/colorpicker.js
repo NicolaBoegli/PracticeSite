@@ -73,7 +73,7 @@ picker2.on("rgbChange", onRgbChange2);
 //Picker3 call change method
 picker3.on("rgbChange", onRgbChange3);
 
-//Reset Picker1 & Picker2
+//Reset Picker1 & Picker2 & Picker3
 YAHOO.util.Event.on("reset", "click", function(e) {
     picker1.setValue([255, 255, 255], false);
     picker2.setValue([0, 142, 116], false);
