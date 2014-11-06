@@ -1,0 +1,21 @@
+{
+  "name": "WebsiteProject",
+  "version": "0.0.1-snapshot",
+  "ignore": [
+    ".idea",
+    "lib",
+    "node_modules",
+    "test",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "Gruntfile.js",
+    "bower.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "latest"
+  }
+}

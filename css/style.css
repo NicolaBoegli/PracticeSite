@@ -1,0 +1,313 @@
+.header{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D14335;
+    width: 100%;
+    height: 800px;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+
+#wrap div {
+    z-index: -1;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+#wrap #a{
+    margin-top: 1000px;
+    margin-left: 0px;
+}
+
+#wrap #b{
+    margin-left: 85%;
+    margin-top: 1500px;
+}
+
+#wrap #c{
+    margin-left: 90%;
+    margin-top: 1300px;
+}
+
+.header h1{
+    padding: 30px;
+    font-size: 100px;
+}
+
+.header h1 small{
+    font-size:25px;
+    color: #ffffff !important;
+}
+
+.header-title h1{
+    margin-top: 350px;
+    margin-left: -100px;
+}
+
+.half-colored{
+    color: #FFE9AD;
+}
+
+body{
+    margin:0;
+    color: #ffffff;
+    background-color: #B2E097;
+    min-height: 100%;
+    overflow-x: hidden;
+    /*background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;*/
+}
+
+::selection {
+    color: #ffffff;
+    background-color: #D14335;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background-color: #D14335;
+}
+
+footer{
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #D24335;
+    /*border-top-color: #808080;*/
+    text-align: center;
+}
+
+footer a{
+    color: #FFE9AD;
+}
+
+footer a:hover{
+    color: #B2E097;
+    text-decoration: none;
+}
+
+footer a:hover h1 small{
+    color: #B2E097;
+}
+
+footer a h1{
+    font-size: 30px;
+}
+
+footer a h1 small{
+    color: #FFE9AD;
+}
+
+.navbar{
+    margin-top: 210px;
+    border-radius: 0px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    width: 100%;
+    position: absolute;
+    z-index:4;
+}
+
+.navbar.ui-scrollfix {
+    position:fixed;
+    margin-top:-530px;
+    width: 100%;
+}
+
+.navbar-default{
+    background-color: #FFE9AD;
+    background-image: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #D24335;
+    background-color: #FFE9AD;
+}
+
+.navbar-default .navbar-brand.navbar-brand-active{
+    color: #FFE9AD;
+    background-color: #D24335;
+    background-image: none;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.navbar-default .navbar-header a:hover{
+    color: #D24335;
+    background-image: none;
+    background-color: #1A222F;
+}
+
+.navbar-default .navbar-brand.navbar-brand-active {
+     color: #FFE9AD;
+ }
+
+
+.navbar-default .navbar-nav li a {
+    color: #D24335;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #FFE9AD;
+    background-color: #D24335;
+    background-image: none;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background-image: none;
+    background-color: #1A222F;
+    color: #D24335;
+}
+
+.navbar-default .navbar-nav > .active > a:active {
+    background-image: none;
+    background-color: #1A222F;
+    color: #D24335;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background-image: none;
+    background-color: #1A222F;
+    color: #D24335;
+}
+
+.navbar-default .navbar-nav li a:active {
+    background-image: none;
+    background-color: #1A222F;
+    color: #D24335;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-image: none;
+    background-color: #FFE9AD;
+    color: #D24335;
+}
+
+.dropdown-menu{
+    background-color: #FFE9AD;
+}
+
+.dropdown-menu .divider{
+    background-color: #D24335;
+}
+
+button {
+    color: #000000;
+}
+
+.container {
+    z-index:3;
+}
+
+.maincontent{
+    z-index: 3;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: -40px;
+    background-color: #008E74;
+    border-radius: 5px;
+}
+
+.content{
+    z-index: 3;
+    min-height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content input {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.divider{
+    text-align: center;
+}
+
+.header-title h1 small{
+    color: #1A222F;
+}
+
+.content p:nth-child(5){
+    color: red;
+}
+
+.search-form {
+    margin-bottom: 10px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width100{
+    width: 400px;
+}
+
+/*Text color red of an input field when overriden with Bootstrap*/
+input.ng-dirty.ng-invalid {
+    color:red;
+}
+
+.cart-item.ng-enter {
+    -webkit-transition:0.5s linear all;
+    transition:0.5s linear all;
+    background-color: #FFE9AD;
+}
+.cart-item.ng-enter-active {
+    background-color: #008E74;
+}
+
+.yui-picker-bg {
+    margin-top: 100px !important;
+}
+
+.yui-picker-hue-bg {
+    top: 102px !important;
+}
+
+.yui-picker-controls {
+    top: 1000px !important;
+}
+
+.yui-picker-swatch {
+    top: 1000px !important;
+}
+
+.yui-picker-websafe-swatch{
+
+}
+
+/*background: none repeat scroll 0% 0% #DDE8EC;*/
+
+/*Glyphicon in placeholder*/
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    color: #9d9d9d;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

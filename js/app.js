@@ -1,0 +1,1 @@
+var myAppModule = angular.module('myApp', ['ngAnimate','ui.utils']);
